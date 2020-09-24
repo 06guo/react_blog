@@ -113,7 +113,6 @@ const getArticleDetail = (id) => {
 }
   useEffect(() => {
     getTypeInfo()
-    getArticleDetail()
     // 获得文章id
     let tmpId = props.match.params.id
     if (tmpId) {

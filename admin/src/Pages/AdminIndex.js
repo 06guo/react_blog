@@ -6,7 +6,6 @@ import ArticleList from './ArticleList'
 import '../static/css/AdminIndex.css'
 import {
     PieChartOutlined,
-    DesktopOutlined,
     FileOutlined,
     UserOutlined
   } from '@ant-design/icons';

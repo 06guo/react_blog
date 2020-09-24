@@ -10,7 +10,7 @@ function ArticleList(props){
     const [list,setList]=useState([])
     const getLit = () => {
         axios.get(servicePath.getArticleList).then(res => {
-            setList(res.data.data.List)
+            setList(res.data.data.list)
         })
     }
     const deleteArticle = (id) => {
